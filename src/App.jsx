@@ -74,7 +74,7 @@ function App() {
       </section>
 
       
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className=" text-white py-12">
       <div className="container-custom">
         <div className="grid md:grid-cols-4 gap-8">
           
@@ -86,7 +86,7 @@ function App() {
               </div>
               <div>
                 <div className="font-bold">Expo Educación</div>
-                <div className="text-sm text-gray-400">Manzanillo 2024</div>
+                <div className="text-sm text-gray-400">Manzanillo 2026</div>
               </div>
             </div>
             <p className="text-gray-400 text-sm">

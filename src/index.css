@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Geophy", Geophy,;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geophy"), url('./assets/font/Geophy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Boldonse", Boldonse,;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Boldonse"), url('./assets/font/Boldonse.ttf') format('opentype');
+}
+
+
 @layer base {
   :root {
     --primary: #2563eb;

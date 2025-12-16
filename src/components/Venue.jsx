@@ -35,7 +35,7 @@ const Venue = () => {
           <div>
             <div className="card mb-8">
               <h3 className="heading-3 mb-6 text-gray-900">
-                Salón Convenciones <span className="text-blue-600">Manzanillo</span>
+                Salón Convenciones <span className="text-blue-600">Marbella</span>
               </h3>
               
               <div className="space-y-4">

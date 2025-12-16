@@ -19,16 +19,14 @@ const Hero = () => {
       <div className={`relative z-10 container-custom text-center transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         
         {/* Badge superior */}
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-8">
-          <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
-          <span className="text-sm font-medium text-gray-700">Manzanillo, Colima</span>
-        </div>
+        
 
         {/* Título principal */}
-        <h1 className="heading-1 mb-6">
-          <span className="block text-gray-900">Expo Educación</span>
-          <span className="block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mt-2">
-            Manzanillo 2024
+        <h1 className="heading-1 mb-6 ">
+          <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Expo </span>
+          <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Educación </span>
+          <span className="block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mt-2" style={{fontFamily:"Boldonse"}}>
+            Manzanillo 2026
           </span>
         </h1>
 
@@ -55,7 +53,7 @@ const Hero = () => {
         </div>
 
         {/* Info rápida */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto my-6">
           {[
             { label: 'Fecha', value: '15-16 Nov', icon: '📅' },
             { label: 'Horario', value: '9:00-18:00', icon: '⏰' },
@@ -68,6 +66,10 @@ const Hero = () => {
               <div className="text-sm text-gray-500">{item.label}</div>
             </div>
           ))}
+        </div>
+        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-8">
+          <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
+          <span className="text-sm font-medium text-gray-700">Manzanillo, Colima</span>
         </div>
       </div>
 
