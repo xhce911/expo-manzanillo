@@ -22,22 +22,22 @@ const Hero = () => {
         
 
         {/* Título principal */}
-        <h1 className="heading-1 mb-6 ">
+        <h1 className="heading-1 mb-6 justify-start text-left  ">
           <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Expo </span>
           <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Educación </span>
-          <span className="block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mt-2" style={{fontFamily:"Boldonse"}}>
+          <span className="block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mt-2" style={{fontFamily:"Geophy"}}>
             Manzanillo 2026
           </span>
-        </h1>
-
-        {/* Subtítulo */}
-        <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
           Conectando instituciones educativas con familias y profesionales 
           en busca de oportunidades formativas.
-        </p>
+          </p>
+        </h1>
+
+       
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+        <div className="flex flex-col sm:flex-row gap-4 justify-left mb-16">
           <button className="btn-primary">
             <span>Ver Paquetes de Stands</span>
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

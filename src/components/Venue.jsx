@@ -35,7 +35,7 @@ const Venue = () => {
           <div>
             <div className="card mb-8">
               <h3 className="heading-3 mb-6 text-gray-900">
-                Salón Convenciones <span className="text-blue-600">Marbella</span>
+                Salón de eventos <span className="text-blue-600">Marbella</span>
               </h3>
               
               <div className="space-y-4">
@@ -70,7 +70,7 @@ const Venue = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                         </svg>
                       </div>
-                      <span className="text-gray-700">3 salas para conferencias</span>
+                      <span className="text-gray-700">1 espacio para conferencias</span>
                     </li>
                   </ul>
                 </div>
@@ -98,14 +98,16 @@ const Venue = () => {
               <div className="aspect-video bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl mb-6 overflow-hidden relative">
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                     
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <p className="text-gray-700 font-medium">Centro de Convenciones Manzanillo</p>
+                  <p className="text-gray-700 font-medium">Salón de evntos Marbella</p>
                   <p className="text-sm text-gray-500 mt-2">Mapa interactivo</p>
                 </div>
+                
               </div>
               
               {/* Info de contacto */}
@@ -117,7 +119,7 @@ const Venue = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-900">Dirección</p>
-                    <p className="text-gray-600">Blvd. Miguel de la Madrid 1000, Manzanillo, Colima</p>
+                    <p className="text-gray-600">Blvd. Miguel de la Madrid, Marbella 1079 esq, Playa Azul Salagua, 28218 Manzanillo, Col.</p>
                   </div>
                 </div>
                 
@@ -127,7 +129,7 @@ const Venue = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-900">Horario del evento</p>
-                    <p className="text-gray-600">15-16 Noviembre • 9:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">06 - 07 Marzo • 9:00 AM - 6:00 PM</p>
                   </div>
                 </div>
                 
@@ -137,19 +139,21 @@ const Venue = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-900">Contacto</p>
-                    <p className="text-gray-600">info@expoeducacionmanzanillo.com</p>
+                    <p className="text-gray-600">expoeducacionmanzanillo@gmail.com</p>
                     <p className="text-gray-600">+52 314 123 4567</p>
                   </div>
                 </div>
               </div>
               
               {/* Botón de dirección */}
-              <button className="btn-secondary w-full mt-8">
+              <a href='https://maps.app.goo.gl/wkENrHNGp2nbNNB17'  target="_blank">
+                <button className="btn-secondary w-full mt-8" >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                 </svg>
                 <span>Abrir en Google Maps</span>
               </button>
+              </a>
             </div>
           </div>
 

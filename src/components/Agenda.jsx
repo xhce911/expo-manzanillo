@@ -67,8 +67,8 @@ const Agenda = () => {
         <div className="flex justify-center mb-12">
           <div className="inline-flex bg-gray-100 p-1 rounded-xl">
             {[
-              { day: 1, date: "15 Nov", label: "Día 1" },
-              { day: 2, date: "16 Nov", label: "Día 2" }
+              { day: 1, date: "6 Mar", label: "Día 1" },
+              { day: 2, date: "7 Mar", label: "Día 2" }
             ].map((item) => (
               <button
                 key={item.day}
