@@ -6,10 +6,10 @@ const Agenda = () => {
   const schedule = {
     1: [
       { time: "09:00", title: "Registro y Apertura", type: "general" },
-      { time: "10:00", title: "Inauguración Oficial", type: "conference", speaker: "Lic. Juan Pérez" },
+      { time: "10:00", title: "Inauguración Oficial", type: "conference", speaker: "" },
       { time: "11:00", title: "Taller: Educación STEM", type: "workshop", location: "Sala A" },
       { time: "12:00", title: "Presentación Artística", type: "cultural", group: "Grupo Folklórico" },
-      { time: "14:00", title: "Mesa Redonda: Futuro Educativo", type: "conference", speaker: "Dra. María González" }
+      { time: "14:00", title: "Mesa Redonda: Futuro Educativo", type: "conference", speaker: "" }
     ],
     2: [
       { time: "09:30", title: "Conferencia: Innovación Educativa", type: "conference", speaker: "Dr. Carlos Ruiz" },
@@ -50,12 +50,12 @@ const Agenda = () => {
         
         {/* Encabezado */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 text-blue-600 font-medium mb-4">
+          <div className="inline-flex items-center gap-2  font-medium mb-4">
             <span className="w-6 h-px bg-blue-600"></span>
             AGENDA
           </div>
           <h2 className="heading-2 mb-6 text-gray-900">
-            Planifica tu <span className="text-blue-600">visita</span>
+            Planifica tu <span className="">visita</span>
           </h2>
           <p className="text-body text-gray-600">
             Dos días llenos de actividades educativas, culturales y profesionales. 
@@ -67,15 +67,15 @@ const Agenda = () => {
         <div className="flex justify-center mb-12">
           <div className="inline-flex bg-gray-100 p-1 rounded-xl">
             {[
-              { day: 1, date: "6 Mar", label: "Día 1" },
-              { day: 2, date: "7 Mar", label: "Día 2" }
+              { day: 1, date: "17 Abril", label: "Día 1" },
+              
             ].map((item) => (
               <button
                 key={item.day}
                 onClick={() => setActiveDay(item.day)}
                 className={`px-8 py-3 rounded-lg font-medium transition-all ${
                   activeDay === item.day 
-                    ? 'bg-white text-blue-600 shadow-sm' 
+                    ? 'bg-white  shadow-sm' 
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
@@ -152,7 +152,7 @@ const Agenda = () => {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <button className="btn-primary">
+          <button className="btn-primary" style={{backgroundColor:"var(--primary)"}}>
             <span>Descargar Agenda Completa</span>
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

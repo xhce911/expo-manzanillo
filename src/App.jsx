@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-gray-800 mx-auto md:overflow-x-hidden md:p-4 p-2">
       <Navigation activeSection={activeSection} scrollToSection={scrollToSection} />
       
       <section id="hero">
@@ -60,11 +60,11 @@ function App() {
       <section id="benefits-visitors">
         <BenefitsVisitors />
       </section>
-
+    {/*
       <section id="exhibitors">
         <Exhibitors />
       </section>
-
+*/}
       <section id="agenda">
         <Agenda />
       </section>

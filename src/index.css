@@ -19,10 +19,10 @@
 
 @layer base {
   :root {
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
-    --secondary: #64748b;
-    --accent: #f59e0b;
+    --primary: #8C4492;
+    --primary-dark: #300D3D;
+    --secondary: #ed6f3d;
+    --accent: #E31A61;
     --background: #f8fafc;
   }
 

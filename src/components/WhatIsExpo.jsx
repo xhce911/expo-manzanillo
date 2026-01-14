@@ -18,15 +18,8 @@ const WhatIsExpo = () => {
             </h2>
             
             <div className="space-y-4">
-              <p className="text-body">
-                Un encuentro estratégico que reúne a instituciones educativas, empresas, 
-                familias y profesionales en un solo espacio para explorar oportunidades 
-                formativas desde educación básica hasta posgrados y certificaciones.
-              </p>
-              <p className="text-body">
-                Creamos un ecosistema donde la oferta educativa se encuentra con la demanda, 
-                facilitando decisiones informadas y conexiones valiosas para el desarrollo 
-                académico y profesional.
+              <p className="text-body justify-start text-left">
+              Un evento que reúne a instituciones educativas, empresas, familias y profesionistas para conectar con opciones de formación desde preescolar hasta posgrado, certificaciones y educación continua
               </p>
             </div>
 

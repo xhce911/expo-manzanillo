@@ -8,7 +8,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
     { id: 'what-is', label: 'Qué es' },
     { id: 'benefits-institutions', label: 'Instituciones' },
     { id: 'benefits-visitors', label: 'Visitantes' },
-    { id: 'exhibitors', label: 'Expositores' },
+    
     { id: 'agenda', label: 'Agenda' },
     { id: 'venue', label: 'Sede' }
   ];
@@ -24,7 +24,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
               onClick={() => scrollToSection('hero')}
               className="flex items-center gap-2 group"
             >
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{backgroundColor:"var(--primary)"}}>
                 <span className="text-white font-bold text-sm">E</span>
               </div>
               <div className="text-left">
@@ -50,7 +50,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
                   {item.label}
                 </button>
               ))}
-              <button className="ml-4 px-6 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+              <button className="ml-4 px-6 py-2  text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors" style={{backgroundColor:"var(--primary)"}}>
                 Contacto
               </button>
             </div>
@@ -90,7 +90,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
                     {item.label}
                   </button>
                 ))}
-                <button className="block w-full text-left px-4 py-3 bg-blue-600 text-white text-sm font-medium rounded-lg mt-2">
+                <button className="block w-full text-left px-4 py-3  text-white text-sm font-medium rounded-lg mt-2" style={{backgroundColor:"var(--primary)"}}>
                   Contacto
                 </button>
               </div>

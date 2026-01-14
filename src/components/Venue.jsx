@@ -104,7 +104,7 @@ const Venue = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <p className="text-gray-700 font-medium">Salón de evntos Marbella</p>
+                  <p className="text-gray-700 font-medium">Salón de eventos Marbella</p>
                   <p className="text-sm text-gray-500 mt-2">Mapa interactivo</p>
                 </div>
                 
@@ -129,7 +129,7 @@ const Venue = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-900">Horario del evento</p>
-                    <p className="text-gray-600">06 - 07 Marzo • 9:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">17 de Abril • 09:00 AM - 8:00 PM</p>
                   </div>
                 </div>
                 

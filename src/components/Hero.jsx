@@ -25,12 +25,14 @@ const Hero = () => {
         <h1 className="heading-1 mb-6 justify-start text-left  ">
           <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Expo </span>
           <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Educación </span>
-          <span className="block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mt-2" style={{fontFamily:"Geophy"}}>
+          <span className="block text-indigo-800 mt-2" style={{fontFamily:"Geophy"}} style={{color:"var(--primary)"}}>
             Manzanillo 2026
           </span>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-          Conectando instituciones educativas con familias y profesionales 
-          en busca de oportunidades formativas.
+          <p className="text-lg md:text-lg text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+          Reúne en un solo lugar a las mejores instituciones educativas, academias y programas formativos de Manzanillo y la región.<br></br> <br></br>
+          👉 Conoce, compara y decide con información real.<br></br>  <br></br>
+          🎁 Los primeros 200 estudiantes asistentes recibirán un kit de bienvenida.<br></br>
+
           </p>
         </h1>
 
@@ -38,13 +40,13 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-left mb-16">
-          <button className="btn-primary">
+          <button className="btn-primary" style={{backgroundColor:"var(--primary)"}}>
             <span>Ver Paquetes de Stands</span>
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </button>
-          <button className="btn-secondary">
+          <button className="btn-secondary" style={{color:"var(--secondary)"}}>
             <span>Ver Agenda Completa</span>
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -53,11 +55,11 @@ const Hero = () => {
         </div>
 
         {/* Info rápida */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto my-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-2xl mx-auto my-6">
           {[
-            { label: 'Fecha', value: '15-16 Nov', icon: '📅' },
+            { label: 'Fecha', value: '17 de Abril', icon: '📅' },
             { label: 'Horario', value: '9:00-18:00', icon: '⏰' },
-            { label: 'Expositores', value: '50+', icon: '🏫' },
+           
             { label: 'Entrada', value: 'Gratuita', icon: '🎫' }
           ].map((item, idx) => (
             <div key={idx} className="text-center">
@@ -68,7 +70,7 @@ const Hero = () => {
           ))}
         </div>
         <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-8">
-          <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
+          <span className="w-2 h-2 bg-indigo-600 rounded-full animate-pulse"></span>
           <span className="text-sm font-medium text-gray-700">Manzanillo, Colima</span>
         </div>
       </div>
