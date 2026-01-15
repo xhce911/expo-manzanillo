@@ -29,19 +29,19 @@ const BenefitsInstitutions = () => {
   ];
 
   return (
-    <section className="section-padding bg-gray-50">
+    <section className="section-padding bg-gray-50 bg2 min-h-screen items-center justify-center flex mx-auto">
       <div className="container-custom">
         
         {/* Encabezado */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 text-indigo-950 font-medium mb-4">
+          <div className="inline-flex items-center gap-2 text-white font-medium mb-4">
             <span className="w-6 h-px "></span>
             👨‍👩‍👧‍👦 ¿Para quién es 
           </div>
-          <h2 className="heading-2 mb-6 text-gray-900">
-          <span className="text-blue-600" style={{color:"var(--primary-dark)"}}> Expo Educación Manzanillo</span>?
+          <h2 className="heading-2 mb-6 text-white">
+          <span className="text-white" style={{fontFamily:"Geophy"}}> Expo Educación Manzanillo</span> ?
           </h2>
-          <p className="text-body text-gray-600">
+          <p className="text-body text-white">
             Participa en el principal encuentro educativo de la región y conecta 
             con tu audiencia ideal.
           </p>
@@ -55,7 +55,7 @@ const BenefitsInstitutions = () => {
               className="group relative"
             >
               {/* Card */}
-              <div className="card h-full flex flex-col">
+              <div className="card h-full flex flex-col b">
                 
                 {/* Icono con fondo gradiente */}
                 <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${benefit.gradient} flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-300`}>
@@ -84,13 +84,15 @@ const BenefitsInstitutions = () => {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <button className="btn-primary" style={{backgroundColor:"var(--primary)"}}>
-            <span>Descargar Folleto de Participación</span>
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
+          <a href="https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2FEXPO%20EDUCACI%C3%93N%20-%20carpeta%20comercial%20(1).pdf?alt=media&token=bec149e6-fd43-47d7-a24b-db026e002dc0"  download={"Carpeta Comercial"}>
+            <button className="btn-primary" style={{backgroundColor:"var(--primary)"}}>
+              <span>Descargar Folleto de Participación</span>
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
           </button>
-          <p className="text-sm text-gray-500 mt-4">
+          </a>
+          <p className="text-sm text-white mt-4">
             Formatos disponibles: PDF, Excel, PowerPoint
           </p>
         </div>

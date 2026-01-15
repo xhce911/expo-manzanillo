@@ -24,14 +24,11 @@ const Navigation = ({ activeSection, scrollToSection }) => {
               onClick={() => scrollToSection('hero')}
               className="flex items-center gap-2 group"
             >
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{backgroundColor:"var(--primary)"}}>
-                <span className="text-white font-bold text-sm">E</span>
-              </div>
+              
               <div className="text-left">
                 <div className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                  Expo Educación
+                 <img src="https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Fshortlogo.png?alt=media&token=c14cca77-c83e-441a-a19c-eb2205a3c6aa" alt="" className="w-22 h-10" />
                 </div>
-                <div className="text-xs text-gray-500">Manzanillo</div>
               </div>
             </button>
 

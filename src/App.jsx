@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <div className="font-sans text-gray-800 mx-auto md:overflow-x-hidden md:p-4 p-2">
+    <div className="font-sans text-gray-800 mx-auto md:overflow-x-hidden ">
       <Navigation activeSection={activeSection} scrollToSection={scrollToSection} />
       
       <section id="hero">
@@ -74,16 +74,14 @@ function App() {
       </section>
 
       
-    <footer className=" text-white py-12">
+    <footer className=" text-white py-6 bg4">
       <div className="container-custom">
         <div className="grid md:grid-cols-4 gap-8">
           
           {/* Columna 1 */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-300 rounded-lg flex items-center justify-center">
-                <span className="font-bold">E</span>
-              </div>
+              
               <div>
                 <div className="font-bold">Expo Educación</div>
                 <div className="text-sm text-gray-400">Manzanillo 2026</div>
@@ -130,9 +128,9 @@ function App() {
               <input 
                 type="email" 
                 placeholder="Tu email"
-                className="flex-grow px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-sm focus:outline-none focus:border-blue-500"
+                className="flex-grow px-4 py-2 bg-white-800 border border-gray-700 rounded-lg text-sm focus:outline-none focus:border-blue-500"
               />
-              <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium transition-colors">
+              <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium transition-colors" style={{backgroundColor: 'var(--primary)'}}>
                 →
               </button>
             </div>

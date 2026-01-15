@@ -8,12 +8,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center mainBg" >
       {/* Fondo con gradiente sutil */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-gray-50"></div>
+     
       
       {/* Elementos decorativos sutiles */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+      <div className="absolute top-10 left-10 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
       <div className="absolute bottom-20 right-10 w-72 h-72 bg-amber-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
       
       <div className={`relative z-10 container-custom text-center transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -22,13 +22,9 @@ const Hero = () => {
         
 
         {/* Título principal */}
-        <h1 className="heading-1 mb-6 justify-start text-left  ">
-          <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Expo </span>
-          <span className="block text-gray-900 " style={{fontFamily:"Geophy"}}>Educación </span>
-          <span className="block text-indigo-800 mt-2" style={{fontFamily:"Geophy"}} style={{color:"var(--primary)"}}>
-            Manzanillo 2026
-          </span>
-          <p className="text-lg md:text-lg text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <h1 className=" mb-6 justify-start text-left mt-24  ">
+          <img src="https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2FFull_logo.png?alt=media&token=d9f59cc2-dfb3-47fb-a011-9c427c652587" alt="" />
+          <p className="text-lg md:text-lg text-white mx-auto my-8 leading-relaxed ">
           Reúne en un solo lugar a las mejores instituciones educativas, academias y programas formativos de Manzanillo y la región.<br></br> <br></br>
           👉 Conoce, compara y decide con información real.<br></br>  <br></br>
           🎁 Los primeros 200 estudiantes asistentes recibirán un kit de bienvenida.<br></br>
@@ -64,23 +60,16 @@ const Hero = () => {
           ].map((item, idx) => (
             <div key={idx} className="text-center">
               <div className="text-2xl mb-2">{item.icon}</div>
-              <div className="font-semibold text-gray-900">{item.value}</div>
-              <div className="text-sm text-gray-500">{item.label}</div>
+              <div className="font-semibold text-white">{item.value}</div>
+              <div className="text-sm text-white  ">{item.label}</div>
             </div>
           ))}
         </div>
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-8">
-          <span className="w-2 h-2 bg-indigo-600 rounded-full animate-pulse"></span>
-          <span className="text-sm font-medium text-gray-700">Manzanillo, Colima</span>
-        </div>
+       
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-gray-300 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
+     
     </div>
   );
 };

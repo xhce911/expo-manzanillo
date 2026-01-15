@@ -2,19 +2,19 @@ import React from 'react';
 
 const BenefitsVisitors = () => {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg6">
       <div className="container-custom">
         
         {/* Encabezado */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 text-blue-600 font-medium mb-4">
-            <span className="w-6 h-px bg-blue-600"></span>
+        <div className="text-center max-w-3xl mx-auto mb-16 ">
+          <div className="inline-flex items-center gap-2 text-white font-medium mb-4">
+            <span className="w-6 h-px bg-white" ></span>
             PARA VISITANTES
           </div>
-          <h2 className="heading-2 mb-6 text-gray-900">
-            Encuentra tu <span className="text-blue-600">camino</span> educativo
+          <h2 className="heading-2 mb-6 text-white">
+            Encuentra tu <span className="text-white">camino</span> educativo
           </h2>
-          <p className="text-body text-gray-600">
+          <p className="text-body text-white">
             Ya sea para tu familia o tu desarrollo profesional, tenemos opciones 
             que se adaptan a tus necesidades.
           </p>
@@ -119,7 +119,7 @@ const BenefitsVisitors = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
             </svg>
           </button>
-          <p className="text-sm text-gray-500 mt-3">
+          <p className="text-sm text-white mt-3">
             Registro gratuito • Acceso a todas las actividades
           </p>
         </div>

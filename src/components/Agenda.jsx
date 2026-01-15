@@ -45,19 +45,19 @@ const Agenda = () => {
   };
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg5 ">
       <div className="container-custom">
         
         {/* Encabezado */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2  font-medium mb-4">
-            <span className="w-6 h-px bg-blue-600"></span>
+          <div className="inline-flex items-center gap-2  font-medium mb-4 text-white">
+            <span className="w-6 h-px bg-white"></span>
             AGENDA
           </div>
-          <h2 className="heading-2 mb-6 text-gray-900">
+          <h2 className="heading-2 mb-6 text-white">
             Planifica tu <span className="">visita</span>
           </h2>
-          <p className="text-body text-gray-600">
+          <p className="text-body text-white">
             Dos días llenos de actividades educativas, culturales y profesionales. 
             Organiza tu tiempo para aprovechar al máximo.
           </p>
@@ -101,7 +101,7 @@ const Agenda = () => {
               >
                 {/* Time */}
                 <div className={`w-1/2 ${index % 2 === 0 ? 'pr-12 text-right' : 'pl-12'}`}>
-                  <div className="text-lg font-semibold text-gray-900">{event.time}</div>
+                  <div className="text-lg font-semibold text-white">{event.time}</div>
                 </div>
                 
                 {/* Dot */}
@@ -158,7 +158,7 @@ const Agenda = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
           </button>
-          <p className="text-sm text-gray-500 mt-3">
+          <p className="text-sm text-white mt-3">
             PDF • Excel • Google Calendar
           </p>
         </div>

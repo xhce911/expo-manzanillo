@@ -2,29 +2,29 @@ import React from 'react';
 
 const WhatIsExpo = () => {
   return (
-    <section className="section-padding bg-white">
+    <section className="section bg4 min-h-screen items-center justify-center flex mx-auto">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Columna de texto */}
           <div>
-            <div className="inline-flex items-center gap-2 text-blue-600 font-medium mb-4">
+            <div className="inline-flex items-center gap-2 text-white font-medium mb-4">
               <span className="w-6 h-px bg-blue-600"></span>
               ACERCA DEL EVENTO
             </div>
             
-            <h2 className="heading-2 mb-6 text-gray-900">
-              ¿Qué es <span className="text-blue-600">Expo Educación</span>?
+            <h2 className="heading-2 mb-6 text-white">
+              ¿Qué es <span className="text-white">Expo Educación</span>?
             </h2>
             
             <div className="space-y-4">
-              <p className="text-body justify-start text-left">
+              <p className="text-body justify-start text-left text-white">
               Un evento que reúne a instituciones educativas, empresas, familias y profesionistas para conectar con opciones de formación desde preescolar hasta posgrado, certificaciones y educación continua
               </p>
             </div>
 
             {/* Lista de puntos clave */}
-            <div className="mt-8 grid sm:grid-cols-2 gap-4">
+            <div className="mt-8 grid sm:grid-cols-2 gap-4 text-white">
               {[
                 'Encuentro anual',
                 '50+ instituciones',
@@ -37,7 +37,7 @@ const WhatIsExpo = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">{item}</span>
+                  <span className="">{item}</span>
                 </div>
               ))}
             </div>

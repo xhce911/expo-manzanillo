@@ -43,7 +43,7 @@
 
 @layer components {
   .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-7xl mx-auto ;
   }
 
   .section-padding {
@@ -88,4 +88,43 @@
            transition-all duration-200 shadow-sm
            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
   }
+}
+
+.mainBg{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2FmainBg.png?alt=media&token=d0e4d039-cb96-4f05-ad0d-abcba4cc4165');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg2{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Fbg2.png?alt=media&token=aaccea1b-595d-4757-9efe-2e5941cbbf66');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.bg3{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Fbg3.png?alt=media&token=eefbc858-8095-4cf3-af06-e0c8a582678d');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg4{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Faltb4.png?alt=media&token=260d52a0-abc6-4308-9905-f236d8499754');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg5{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Fbg5.png?alt=media&token=5fede186-5d39-478f-b526-f012f780557f');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg6{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/archipielablog.firebasestorage.app/o/expoeducacion%2Fbg6_1.png?alt=media&token=e0eb3cba-ceca-422b-8edc-41091b3e6627');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
