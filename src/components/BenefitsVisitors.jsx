@@ -111,7 +111,7 @@ const BenefitsVisitors = () => {
 
         </div>
 
-        {/* CTA unificado */}
+        {/* CTA unificado 
         <div className="text-center mt-12">
           <button className="btn-primary" style={{backgroundColor:"var(--primary)"}}>
             <span>Registrarme como Visitante</span>
@@ -122,7 +122,7 @@ const BenefitsVisitors = () => {
           <p className="text-sm text-white mt-3">
             Registro gratuito • Acceso a todas las actividades
           </p>
-        </div>
+        </div>*/}
 
       </div>
     </section>

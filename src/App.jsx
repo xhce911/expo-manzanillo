@@ -65,10 +65,11 @@ function App() {
         <Exhibitors />
       </section>
 */}
-      <section id="agenda">
+     {/* <section id="agenda">
         <Agenda />
       </section>
-
+      */}
+      
       <section id="venue">
         <Venue />
       </section>
